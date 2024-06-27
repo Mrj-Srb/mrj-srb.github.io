@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fucked By COBRA X_X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed:wght@100;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        header {
+            width: 100%;
+        }
+        h1 {
+            color: rgb(1, 236, 1);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 48px;
+            color: green; /* Initial color */
+            animation: glitch 6s infinite;
+        }
+        @keyframes glitch {
+            0% {
+                color: green;
+                opacity: 1;
+            }
+            25% {
+                color: white;
+                opacity: 0;
+            }
+            50% {
+                color: red;
+                opacity: 1;
+            }
+            75% {
+                color: white;
+                opacity: 0;
+            }
+            100% {
+                color: green;
+                opacity: 1;
+            }
+            }
+        section {
+            width: 100%;
+        }
+        section img {
+            max-width: 600px;
+            max-height: 600px;
+        }
+        section a {
+            color: white;
+            display: block;
+        }
+        section p {
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
+        }
+        section span {
+            color:white;
+            position: absolute;
+            bottom: 5px;
+            text-align: center;
+            left: 50;
+            transform: translateX(-50%); /* Center horizontally */
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
+            text-shadow: 0px 0px 3px #ffffff91 ;
+        }
+        #typed-text {
+            color:white;
+        }
+        #hidden-audio {
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+        .horizontal-line {
+        position: absolute;
+        left: 0px; /* Position it vertically in the middle of the page */
+        width: 100%; /* Make it span the full width of the page */
+        bottom: 38px;
+        height: 1px; /* Set the height to create a thin horizontal line */
+        background: #fff; /* Line color (white) */
+        overflow: hidden; /* Hide any overflowing content */
+        }
+
+        .light {
+        width: 20px; /* Width of the light (you can adjust this) */
+        height: 10px; /* Height of the light (you can adjust this) */
+        position: absolute;
+        animation: moveLight 2s linear infinite, colorChange 4s alternate infinite; /* Animation for moving the light and changing its color */
+        background: red; /* Initial color of the light (red) */
+        }
+
+        @keyframes moveLight {
+        0% {
+            left: -30px; /* Start position off the left side of the line */
+        }
+        100% {
+            left: 100%; /* End position to the right side of the line */
+        }
+        }
+
+        @keyframes colorChange {
+        0%, 100% {
+            background: red; /* Start and end color (red) */
+        }
+        50% {
+            background: blue; /* Middle color (blue) */
+        }
+        }
+    </style>
+
+  
+</head>
+<body onload="typeText()">
+    <center>
+        <header>
+            <h1 class="glitch-heading">Hacked By COBRA X_X</h1>
+        </header>
+
+        <section>
+            <img src="https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5vbnltb3VzfGVufDB8fDB8fHww&w=1000&q=80" alt="hacker_image">
+            <br>
+            <p id="typed-text"></p>
+            <br> 
+            <br> 
+            <span>© Fucked By COBRA | </span>
+            <audio id="hidden-audio" autoplay>
+                <source src="https://s13.uupload.ir/files/zirzamincybery/Allah%20Akbar%20Remix%20(upscaled).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="horizontal-line">
+                <div class="light"></div> <!-- The light element -->
+            </div>
+        </section>
+
+
+
+
+    </center>
+    <script>
+        const textElement = document.getElementById('typed-text');
+        const text = "im so bad at communication in the real world, I mean being AFK. But not here, in the cyberworld. You are criminals, you are unbelievers, you are guilty, you must be removed from the world {Allahu Akbar}";
+
+        let currentIndex = 0;
+
+        function typeText() {
+            if (currentIndex < text.length) {
+                textElement.textContent += text.charAt(currentIndex);
+                currentIndex++;
+                setTimeout(typeText, 200); // Adjust the delay (in milliseconds) between letters here
+            }
+        }
+
+        typeText();
+        ;(function () {
+            var r = Math.random,
+                n = 0,
+                d = document,
+                w = window,
+                i = d.createElement('img'),
+                z = d.createElement('div'),
+                zs = z.style,
+                a = w.innerWidth * r(),
+                b = w.innerHeight * r();
+            zs.position = 'fixed';
+            zs.left = 0;
+            zs.top = 0;
+            zs.opacity = 0;
+            zs.color = '#fff'; // Set text color to white
+            z.appendChild(i);
+            i.src =
+                'data:image/gif;base64,R0lGODlhMAAwAJECAAAAAEJCQv///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAQACACwAAAAAMAAwAAACdpSPqcvtD6NcYNpbr4Z5ewV0UvhRohOe5UE+6cq0carCgpzQuM3ut16zvRBAH+/XKQ6PvaQyCFs+mbnWlEq0FrGi15XZJSmxP8OTRj4DyWY1lKdmV8fyLL3eXOPn6D3f6BcoOEhYaHiImKi4yNjo+AgZKTl5WAAAIfkECQEAAgAsAAAAADAAMAAAAnyUj6nL7Q+jdCDWicF9G1vdeWICao05ciUVpkrZIqjLwCdI16s+5wfck+F8JOBiR/zZZAJk0mAsDp/KIHRKvVqb2KxTu/Vdvt/nGFs2V5Bpta3tBcKp8m5WWL/z5PpbtH/0B/iyNGh4iJiouMjY6PgIGSk5SVlpeYmZqVkAACH5BAkBAAIALAAAAAAwADAAAAJhlI+py+0Po5y02ouz3rz7D4biSJbmiabq6gCs4B5AvM7GTKv4buby7vsAbT9gZ4h0JYmZpXO4YEKeVCk0QkVUlw+uYovE8ibgaVBSLm1Pa3W194rL5/S6/Y7P6/f8vp9SAAAh+QQJAQACACwAAAAAMAAwAAACZZSPqcvtD6OctNqLs968+w+G4kiW5omm6ooALeCusAHHclyzQs3rOz9jAXuqIRFlPJ6SQWRSaIQOpUBqtfjEZpfMJqmrHIFtpbGze2ZywWu0aUwWEbfiZvQdD4sXuWUj7gPos1EAACH5BAkBAAIALAAAAAAwADAAAAJrlI+py+0Po5y02ouz3rz7D4ZiCIxUaU4Amjrr+rDg+7ojXTdyh+e7kPP0egjabGg0EIVImHLJa6KaUam1aqVynNNsUvPTQjO/J84cFA3RzlaJO2495TF63Y7P6/f8vv8PGCg4SFhoeIg4UQAAIfkEBQEAAgAsAAAAADAAMAAAAnaUj6nL7Q+jXGDaW6+GeXsFdFL4UaITnuVBPunKtHGqwoKc0LjN7rdes70QQB/v1ykOj72kMghbPpm51pRKtBaxoteV2SUpsT/Dk0Y+A8lmNZSnZlfH8iy93lzj5+g93+gXKDhIWGh4iJiouMjY6PgIGSk5eVgAADs=';
+            d.body.appendChild(z);
+            function R(o, m) {
+                return Math.max(Math.min(o + (r() - 0.5) * 400, m - 50), 50);
+            }
+            function A() {
+                var x = R(a, w.innerWidth),
+                y = R(b, w.innerHeight),
+                d = 5 * Math.sqrt((a - x) * (a - x) + (b - y) * (b - y));
+                zs.opacity = n;
+                n = 1;
+                zs.transition = zs.webkitTransition = d / 1000 + 's linear';
+                zs.transform = zs.webkitTransform = 'translate(' + x + 'px,' + y + 'px)';
+                i.style.transform = i.style.webkitTransform = a > x ? '' : 'scaleX(-1)';
+                a = x;
+                b = y;
+                setTimeout(A, d);
+            }
+            setTimeout(A, r() * 3000);
+            })();
+
+    </script>
+</body>
+</html>
